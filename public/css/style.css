@@ -1,0 +1,40 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+input#txtSearch {border: 1px solid #888;padding: 5px;border-radius: 5px;}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.thumb-nail {
+    max-width: 250px;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header>a {
+    color: #888;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 16px;
+}
